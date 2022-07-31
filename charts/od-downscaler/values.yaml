@@ -9,7 +9,7 @@ image:
 
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: od-downscaler-0.1.4
+  tag: od-scaler-0.1.4
 
 imagePullSecrets: []
 nameOverride: ""

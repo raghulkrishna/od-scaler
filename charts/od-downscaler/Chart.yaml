@@ -1,5 +1,5 @@
 apiVersion: v2
-name: od-downscaler
+name: od-scaler
 description: A Helm chart for on demand scaler
 
 # A chart can be either an 'application' or a 'library' chart.
