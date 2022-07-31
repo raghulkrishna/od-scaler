@@ -58,7 +58,47 @@ $ helm install od-scaler/od-scaler
 
 ```
 
+## :dart: Setup ##
+
+1. Create a Slack APP https://api.slack.com/authentication/basics
+
+2. Get slack bot token
+
+3. Enable slack event subscriptions https://api.slack.com/apis/connections/events-api
+
+4. Create a secret like this
+
+```bash
+apiVersion: v1
+kind: Secret
+metadata:
+  name: od-scaler
+stringData:
+  SLACK_BOT_TOKEN: xoxb-XXXXXX-XXXXX-XXXXX
+  BOT_USER_ID: U03J0XXXXX
+  BASIC_AUTH_USER:od-scaler
+  BASIC_AUTH_PASSWORD: powmsgtrajn1h12
+```
+
+5. Set the secret name in values.yaml
+
+6. Setup ingress for od-scaler in values.yaml
+
+7. Set url in slack event subscription as https://od-dcaler:powmsgtrajn1h12@slackify.com/slack/events
+
 ## :dart: Usage ##
+
+To upscale/dowscale  a namespace 
+
+```
+@Scaler upscale replica 2 (number of replica)
+```
+
+Select the namespaces to upscale
+
+
+if your cluster has https://codeberg.org/hjacobs/kube-downscaler
+you can skip the kube-downscaler to downscale 
 
 
 
