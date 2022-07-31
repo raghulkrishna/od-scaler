@@ -84,7 +84,7 @@ stringData:
 
 6. Setup ingress for od-scaler in values.yaml
 
-7. Set url in slack event subscription as https://od-dcaler:powmsgtrajn1h12@slackify.com/slack/events
+7. Set url in slack event subscription as https://od-dcaler:powmsgtrajn1h12@scaler.com/slack/events
 
 ## :dart: Usage ##
 
@@ -96,10 +96,13 @@ To upscale/dowscale  a namespace
 
 Select the namespaces to upscale
 
+<img width="694" alt="Screenshot 2022-07-31 at 5 11 09 PM" src="https://user-images.githubusercontent.com/62284209/182032915-7628cedd-ce95-4808-8729-e9fca82543cf.png">
+
 
 if your cluster has https://codeberg.org/hjacobs/kube-downscaler
-you can skip the kube-downscaler to downscale 
+you can skip the kube-downscaler to downscale by selecting yes this will add annotation to skip kube-downscaler
 
+<img width="564" alt="Screenshot 2022-07-31 at 5 11 32 PM" src="https://user-images.githubusercontent.com/62284209/182032932-39b47864-b629-4c0a-ab40-7e62d6981934.png">
 
 
 ## :memo: License ##
