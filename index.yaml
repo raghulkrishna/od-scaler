@@ -11,4 +11,15 @@ entries:
     urls:
     - https://github.com/raghulkrishna/od-scaler/releases/download/od-downscaler-0.1.4/od-downscaler-0.1.4.tgz
     version: 0.1.4
-generated: "2022-07-31T14:44:31.64355033Z"
+  od-scaler:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-07-31T14:54:12.966908117Z"
+    description: A Helm chart for on demand scaler
+    digest: 42565af72bb9679bc2b86a3d9a182a72b01fc5d57c818a64b1bd8e428c822a68
+    name: od-scaler
+    type: application
+    urls:
+    - https://github.com/raghulkrishna/od-scaler/releases/download/od-scaler-0.1.4/od-scaler-0.1.4.tgz
+    version: 0.1.4
+generated: "2022-07-31T14:54:12.966917918Z"
