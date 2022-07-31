@@ -52,7 +52,7 @@ Slack Bot for upscaling or downscaling resources in kubernetes namespaces
 
 ```bash
 # Add the repo
-$ helm repo add od-scaler https://raghulkrishna.github.io/helm-charts
+$ helm repo add od-scaler https://raghulkrishna.github.io/od-scaler
 
 # install the helm chart
 $ helm install od-scaler/od-scaler
