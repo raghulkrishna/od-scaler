@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  od-downscaler:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-07-31T14:44:31.64354573Z"
+    description: A Helm chart for on demand scaler
+    digest: 30f623cc53c5288f60fba9b811f0284f77f6f41152160301c9964c8aab02a88c
+    name: od-downscaler
+    type: application
+    urls:
+    - https://github.com/raghulkrishna/od-scaler/releases/download/od-downscaler-0.1.4/od-downscaler-0.1.4.tgz
+    version: 0.1.4
+generated: "2022-07-31T14:44:31.64355033Z"
