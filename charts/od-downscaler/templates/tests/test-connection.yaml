@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "{{ include "od-downscaler.fullname" . }}-test-connection"
+  labels:
+    {{- include "od-downscaler.labels" . | nindent 4 }}
+  annotations:
+    "helm.sh/hook": test
+spec:
+  containers:
+    - name: wget
+      image: busybox
+      command: ['wget']
+      args: ['{{ include "od-downscaler.fullname" . }}:{{ .Values.service.port }}']
+  restartPolicy: Never

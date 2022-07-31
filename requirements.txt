@@ -1,0 +1,3 @@
+slackify
+kubernetes
+flask_httpauth
